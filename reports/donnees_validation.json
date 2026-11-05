@@ -1,0 +1,11 @@
+{
+  "provenance": "simulation scikit-learn : données synthétiques Annexe A (NumPy/pandas)",
+  "graine": 7,
+  "transactions": 5000,
+  "fraudes": 568,
+  "taux_fraude": 0.1136,
+  "lignes_avec_entete": 5001,
+  "sha256": "55d190c433f39d88c2b748ed77c75730cef6fe9f267b4eb6efef9be6ea464dea",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1"
+}
