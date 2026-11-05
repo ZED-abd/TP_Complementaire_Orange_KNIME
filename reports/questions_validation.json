@@ -1,0 +1,17 @@
+{
+  "comptage": "Mots séparés par espaces, titres exclus",
+  "mots_par_reponse": {
+    "Q1 Exactitude et F1": 160,
+    "Q2 Reproductibilité": 157,
+    "Q3 Coût des erreurs et seuil": 170,
+    "Q4 Déclarer la cible": 169,
+    "Q5 Deux environnements visuels": 169,
+    "Q6 Outils visuels et mise en production": 172,
+    "B2 Validation croisée et test fixe": 162,
+    "B3 Prédictions et courbes ROC": 167
+  },
+  "minimum": 120,
+  "maximum": 200,
+  "mediane_montant": 476.55499999999995,
+  "provenance_statistique_donnees": "simulation scikit-learn : lecture pandas du CSV synthétique Annexe A"
+}
