@@ -1,0 +1,11 @@
+{
+  "structure_validee": true,
+  "tableaux": 6,
+  "figures_reproduction_python": 2,
+  "sections": 3,
+  "captures_reelles_inserees": 0,
+  "placeholders_identite": true,
+  "controle_visuel_valide": false,
+  "erreur_rendu_exacte": "FileNotFoundError: LibreOffice soffice.exe was not found on PATH",
+  "action": "[À FAIRE PAR L'ÉTUDIANT] : ouvrir dans Word, vérifier toutes les pages et exporter après insertion des captures."
+}
