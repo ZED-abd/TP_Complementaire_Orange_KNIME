@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "source": "simulation scikit-learn : exécution réelle FLAML sur estimateurs Python",
+    "python": "3.13.3",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1",
+    "donnees_sha256": "55d190c433f39d88c2b748ed77c75730cef6fe9f267b4eb6efef9be6ea464dea"
+  },
+  "flaml": "2.7.0",
+  "hypothese": "Dossier ../tp4-automl absent ; configuration supposée selon la consigne, pas un résultat récupéré du TP04.",
+  "configuration": {
+    "time_budget": 60,
+    "seed": 42,
+    "task": "classification",
+    "metric": "f1",
+    "n_jobs": 1,
+    "verbose": 2,
+    "log_file_name": "C:\\Users\\zakar\\Downloads\\5IASDR\\TP_Complementaire_Orange_KNIME\\reports\\flaml_recherche.log"
+  },
+  "meilleur_modele": "xgboost",
+  "meilleure_configuration": {
+    "n_estimators": 333,
+    "max_leaves": 4,
+    "min_child_weight": 0.06115052475933034,
+    "learning_rate": 0.17876820421463074,
+    "subsample": 0.7335343083405597,
+    "colsample_bylevel": 0.6874325202145412,
+    "colsample_bytree": 0.9715496137104597,
+    "reg_alpha": 0.0022084629913922114,
+    "reg_lambda": 2.4407106398739207
+  },
+  "perte_validation_interne": 0.17230815639865413,
+  "duree_secondes": 60.57772690001002,
+  "machine": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+  "partage": {
+    "train": 3750,
+    "test": 1250,
+    "fraudes_test": 134
+  },
+  "resultats": {
+    "AUC": 0.9909725565719788,
+    "CA": 0.9704,
+    "F1": 0.8582375478927203,
+    "Prec": 0.8818897637795275,
+    "Recall": 0.835820895522388,
+    "matrice": [
+      [
+        1101,
+        15
+      ],
+      [
+        22,
+        112
+      ]
+    ]
+  }
+}
