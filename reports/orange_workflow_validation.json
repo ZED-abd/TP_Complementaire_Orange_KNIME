@@ -1,0 +1,17 @@
+{
+  "provenance": "Orange (API Python), QApplication offscreen",
+  "noeuds": 14,
+  "liens": 16,
+  "recharge_et_execution": true,
+  "f1_classe_1_apres_recharge": {
+    "Logistic Regression": 0.781021897810219,
+    "kNN": 0.779783393501805,
+    "Tree": 0.7559055118110236,
+    "Random Forest": 0.8333333333333334,
+    "Gradient Boosting": 0.837037037037037
+  },
+  "cible_test_and_score": "1",
+  "cible_ROC": 1,
+  "matrice_selection": "Gradient Boosting",
+  "limite": "Vérification visuelle et captures [À FAIRE PAR L'ÉTUDIANT] ; chemin CSV à relocaliser si déplacement."
+}
