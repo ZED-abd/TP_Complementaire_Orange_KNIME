@@ -17,6 +17,8 @@ def main():
     assert len(test) == 1250 and y.iloc[test].sum() == 134
     configuration = dict(time_budget=60, seed=42, task='classification', metric='f1',
                          n_jobs=1, verbose=2, log_file_name=str(ROOT / 'reports/flaml_recherche.log'))
+    # Un journal par exécution, pas une concaténation d'anciennes recherches.
+    (ROOT / 'reports/flaml_recherche.log').write_text('', encoding='utf-8')
     automl = AutoML()
     debut = time.perf_counter()
     automl.fit(X_train=X.iloc[train], y_train=y.iloc[train], **configuration)

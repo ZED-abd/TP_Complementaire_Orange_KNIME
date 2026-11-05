@@ -188,7 +188,7 @@ def main():
     texte += '## B2 CV stratifiée 5 plis\n\n| Modèle | F1 avant agrégé | F1 après agrégé | Moyenne F1 après par pli |\n|---|---|---|---|\n'
     for nom in avant:
         texte += f"| {nom} | {cv['avant'][nom]['F1']:.6f} | {cv['apres'][nom]['F1']:.6f} | {cv['apres'][nom]['F1_moyenne_plis']:.6f} |\n"
-    texte += '\nChaque ligne est validée une fois hors pli ; 4000 lignes entraînent chaque modèle. Le F1 affiché par Orange est calculé sur les prédictions hors pli regroupées, et n’est pas exactement la moyenne des cinq F1. Les deux sont conservés.\n\n'
+    texte += '\nChaque ligne est validée une fois hors pli ; 4000 lignes entraînent chaque modèle. Le F1 affiché par Orange est calculé sur les prédictions hors pli regroupées, et n’est pas exactement la moyenne des cinq F1. Les deux sont conservés. L’AUC CV de scoring Orange est une moyenne des AUC par pli ; les légendes des figures ROC fusionnées utilisent l’AUC des probabilités hors pli regroupées. Ces deux agrégations peuvent légèrement différer.\n\n'
     texte += '## B3 ROC et seuil pédagogique\n\n'
     for stade, scores in [('avant',avant),('apres',apres)]:
         bas=min(scores,key=lambda k:scores[k]['AUC'])

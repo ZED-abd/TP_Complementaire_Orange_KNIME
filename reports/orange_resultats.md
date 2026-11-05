@@ -54,7 +54,7 @@ Matrice GB mesurée : `[[1093, 15], [29, 113]]` ; attendue de l’énoncé : `[[
 | Random Forest | 0.806922 | 0.819343 | 0.819262 |
 | Gradient Boosting | 0.818011 | 0.818011 | 0.818148 |
 
-Chaque ligne est validée une fois hors pli ; 4000 lignes entraînent chaque modèle. Le F1 affiché par Orange est calculé sur les prédictions hors pli regroupées, et n’est pas exactement la moyenne des cinq F1. Les deux sont conservés.
+Chaque ligne est validée une fois hors pli ; 4000 lignes entraînent chaque modèle. Le F1 affiché par Orange est calculé sur les prédictions hors pli regroupées, et n’est pas exactement la moyenne des cinq F1. Les deux sont conservés. L’AUC CV de scoring Orange est une moyenne des AUC par pli ; les légendes des figures ROC fusionnées utilisent l’AUC des probabilités hors pli regroupées. Ces agrégations peuvent légèrement différer.
 
 ## B3 ROC et seuil pédagogique
 

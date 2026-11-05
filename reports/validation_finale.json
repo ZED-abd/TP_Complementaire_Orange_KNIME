@@ -1,0 +1,14 @@
+{
+  "validation_calculs": true,
+  "sha256_csv": "55d190c433f39d88c2b748ed77c75730cef6fe9f267b4eb6efef9be6ea464dea",
+  "comparaisons_orange_conformes_arrondi": 35,
+  "CV_conforme_arrondi": true,
+  "predictions_et_matrices_recalculees": true,
+  "workflow_Orange_recharge_execute": true,
+  "reponses_120_200_mots": true,
+  "KNIME_reel": false,
+  "export_knime_present": false,
+  "captures_reelles": false,
+  "rendu_visuel_Word": false,
+  "limites": "Voir A_FAIRE_MANUELLEMENT.md et rendu_word_limite.md."
+}

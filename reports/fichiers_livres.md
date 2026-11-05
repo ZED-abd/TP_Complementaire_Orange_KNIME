@@ -1,0 +1,69 @@
+# Inventaire des fichiers produits
+
+À la racine : README.md, requirements.txt, requirements-orange.txt, .gitignore, .gitattributes et PDF fourni.
+
+- `scripts/audit_orange.py` — livrable ou preuve générique
+- `scripts/commun.py` — livrable ou preuve générique
+- `scripts/compte_rendu.py` — livrable ou preuve générique
+- `scripts/cree_docx.py` — livrable ou preuve générique
+- `scripts/donnees.py` — livrable ou preuve générique
+- `scripts/extrait_pdf.py` — livrable ou preuve générique
+- `scripts/finalise.py` — livrable ou preuve générique
+- `scripts/flaml_reference.py` — livrable ou preuve générique
+- `scripts/knime_simulation_sklearn.py` — livrable ou preuve générique
+- `scripts/orange_experiences.py` — livrable ou preuve générique
+- `scripts/questions.py` — livrable ou preuve générique
+- `scripts/reproduire.ps1` — livrable ou preuve générique
+- `scripts/synthese.py` — livrable ou preuve générique
+- `scripts/valide_compte_rendu.py` — livrable ou preuve générique
+- `scripts/valide_livrables.py` — livrable ou preuve générique
+- `scripts/verifie_knime.ps1` — livrable ou preuve générique
+- `scripts/workflow_orange.py` — livrable ou preuve générique
+- `data/transactions.csv` — livrable ou preuve générique
+- `workflows/fraude-orange.ows` — livrable ou preuve générique
+- `models/fraude-gb.pkcls` — livrable ou preuve générique
+- `reports/00_checklist.md` — livrable ou preuve générique
+- `reports/A_FAIRE_MANUELLEMENT.md` — livrable ou preuve générique
+- `reports/comparatif.md` — livrable ou preuve générique
+- `reports/compte_rendu.md` — livrable ou preuve générique
+- `reports/compte_rendu_validation.json` — livrable ou preuve générique
+- `reports/donnees_validation.json` — livrable ou preuve générique
+- `reports/enonce_texte.txt` — livrable ou preuve générique
+- `reports/fichiers_livres.md` — livrable ou preuve générique
+- `reports/flaml_predictions.csv` — livrable ou preuve générique
+- `reports/flaml_recherche.log` — livrable ou preuve générique
+- `reports/flaml_reference.md` — livrable ou preuve générique
+- `reports/flaml_resultats.json` — livrable ou preuve générique
+- `reports/guide_knime.md` — livrable ou preuve générique
+- `reports/guide_orange_manuel.md` — livrable ou preuve générique
+- `reports/hypotheses_et_limites.md` — livrable ou preuve générique
+- `reports/journal_validation.md` — livrable ou preuve générique
+- `reports/knime_installation.json` — livrable ou preuve générique
+- `reports/knime_simulation_predictions.csv` — livrable ou preuve générique
+- `reports/knime_simulation_resultats.json` — livrable ou preuve générique
+- `reports/knime_simulation_sklearn.md` — livrable ou preuve générique
+- `reports/Nom_Prénom_Filière_Groupe_TP_lowcode.docx` — local, ignoré par Git
+- `reports/orange_comparaison_scores.csv` — livrable ou preuve générique
+- `reports/orange_cv_apres_predictions.csv` — livrable ou preuve générique
+- `reports/orange_cv_avant_predictions.csv` — livrable ou preuve générique
+- `reports/orange_predictions.csv` — livrable ou preuve générique
+- `reports/orange_resultats.json` — livrable ou preuve générique
+- `reports/orange_resultats.md` — livrable ou preuve générique
+- `reports/orange_sources_installees.md` — livrable ou preuve générique
+- `reports/orange_sources_manifest.json` — livrable ou preuve générique
+- `reports/orange_workflow_validation.json` — livrable ou preuve générique
+- `reports/orange_workflow_validation.md` — livrable ou preuve générique
+- `reports/questions_reponses.md` — livrable ou preuve générique
+- `reports/questions_validation.json` — livrable ou preuve générique
+- `reports/rendu_word_limite.md` — livrable ou preuve générique
+- `reports/validation_finale.json` — livrable ou preuve générique
+- `figures/knime_simulation_gradient_boosting.png` — livrable ou preuve générique
+- `figures/knime_simulation_logistic_regression.png` — livrable ou preuve générique
+- `figures/knime_simulation_random_forest.png` — livrable ou preuve générique
+- `figures/orange_matrice_gb.png` — livrable ou preuve générique
+- `figures/orange_roc_apres.png` — livrable ou preuve générique
+- `figures/orange_roc_avant.png` — livrable ou preuve générique
+- `figures/orange_roc_cv_apres.png` — livrable ou preuve générique
+- `figures/orange_roc_cv_avant.png` — livrable ou preuve générique
+
+Le .knwf et les cinq captures réelles restent à créer par l’étudiant.

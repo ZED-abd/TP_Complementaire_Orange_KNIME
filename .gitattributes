@@ -4,6 +4,7 @@
 *.json text eol=lf
 *.txt text eol=lf
 *.ps1 text eol=crlf
+*.ows text eol=lf
 *.pdf binary
 *.pkcls binary
 *.docx binary

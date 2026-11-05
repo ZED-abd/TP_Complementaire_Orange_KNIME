@@ -7,6 +7,7 @@ os.environ['QT_QPA_PLATFORM'] = 'offscreen'
 import json
 import time
 import importlib
+import random
 from pathlib import Path
 import numpy as np
 from AnyQt.QtWidgets import QApplication
@@ -77,6 +78,8 @@ def verifier(schema,nodes,res):
     return f1
 
 def main():
+    np.random.seed(42)
+    random.seed(42)
     app = QApplication.instance() or QApplication([])
     registry=WidgetRegistry()
     descriptions={}
