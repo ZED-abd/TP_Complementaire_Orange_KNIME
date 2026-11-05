@@ -1,0 +1,7 @@
+pypdf
+numpy
+pandas
+scikit-learn
+matplotlib
+python-docx
+flaml[automl]

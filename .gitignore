@@ -1,0 +1,11 @@
+.venv/
+.venv-orange/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+mlruns/
+.DS_Store
+~$*.docx
+Nom_Prénom_*.docx
+Nom_Prénom_*.pdf
+tmp/
