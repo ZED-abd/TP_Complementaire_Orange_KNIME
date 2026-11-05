@@ -1,0 +1,130 @@
+{
+  "provenance": {
+    "source": "simulation scikit-learn, pas une mesure KNIME",
+    "python": "3.13.3",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1",
+    "donnees_sha256": "55d190c433f39d88c2b748ed77c75730cef6fe9f267b4eb6efef9be6ea464dea"
+  },
+  "graine": 42,
+  "partage": {
+    "train": 3750,
+    "fraudes_train": 426,
+    "test": 1250,
+    "fraudes_test": 142
+  },
+  "parametres": {
+    "Logistic Regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 2000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "Random Forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "Gradient Boosting": {
+      "ccp_alpha": 0.0,
+      "criterion": "deprecated",
+      "init": null,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_depth": 4,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "n_estimators": 100,
+      "n_iter_no_change": null,
+      "random_state": 42,
+      "subsample": 1.0,
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "resultats": {
+    "Logistic Regression": {
+      "AUC": 0.9794198403416892,
+      "CA": 0.9408,
+      "F1": 0.7016129032258065,
+      "Prec": 0.8207547169811321,
+      "Recall": 0.6126760563380281,
+      "matrice": [
+        [
+          1089,
+          19
+        ],
+        [
+          55,
+          87
+        ]
+      ]
+    },
+    "Random Forest": {
+      "AUC": 0.9805893120455584,
+      "CA": 0.9568,
+      "F1": 0.7923076923076923,
+      "Prec": 0.8728813559322034,
+      "Recall": 0.7253521126760564,
+      "matrice": [
+        [
+          1093,
+          15
+        ],
+        [
+          39,
+          103
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "AUC": 0.9865351858443077,
+      "CA": 0.96,
+      "F1": 0.8134328358208955,
+      "Prec": 0.8650793650793651,
+      "Recall": 0.7676056338028169,
+      "matrice": [
+        [
+          1091,
+          17
+        ],
+        [
+          33,
+          109
+        ]
+      ]
+    }
+  }
+}

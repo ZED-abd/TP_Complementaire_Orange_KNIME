@@ -1,0 +1,7 @@
+{
+  "provenance": "Vérification locale PowerShell, sans exécution KNIME",
+  "commandes": [],
+  "dossiers": [],
+  "logiciels": [],
+  "limite": "Recherche PATH, dossiers courants et registre ; installation portable ailleurs possible. Toute exécution KNIME reste [À FAIRE PAR L'ÉTUDIANT]."
+}
