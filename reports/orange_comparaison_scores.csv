@@ -1,0 +1,36 @@
+provenance,modele,stade,metrique,mesure,attendu_enonce,ecart
+Orange (API Python),Logistic Regression,avant,AUC,0.9794261961661667,0.979,0.0004261961661666813
+Orange (API Python),Logistic Regression,avant,CA,0.952,0.952,0.0
+Orange (API Python),Logistic Regression,avant,F1,0.781021897810219,0.781,2.189781021899595e-05
+Orange (API Python),Logistic Regression,avant,Prec,0.8106060606060606,0.811,-0.00039393939393950195
+Orange (API Python),Logistic Regression,avant,Recall,0.7535211267605634,0.754,-0.00047887323943662796
+Orange (API Python),kNN,avant,AUC,0.8251830477449534,0.825,0.00018304774495347953
+Orange (API Python),kNN,avant,CA,0.904,0.904,0.0
+Orange (API Python),kNN,avant,F1,0.4782608695652174,0.478,0.0002608695652174253
+Orange (API Python),kNN,avant,Prec,0.625,0.625,0.0
+Orange (API Python),kNN,avant,Recall,0.3873239436619718,0.387,0.0003239436619718039
+Orange (API Python),Tree,avant,AUC,0.8451085574820767,0.845,0.000108557482076721
+Orange (API Python),Tree,avant,CA,0.9504,0.95,0.00040000000000006697
+Orange (API Python),Tree,avant,F1,0.7559055118110236,0.756,-9.448818897639377e-05
+Orange (API Python),Tree,avant,Prec,0.8571428571428571,0.857,0.00014285714285711126
+Orange (API Python),Tree,avant,Recall,0.676056338028169,0.676,5.633802816895628e-05
+Orange (API Python),Random Forest,avant,AUC,0.976616921747089,0.977,-0.0003830782529109511
+Orange (API Python),Random Forest,avant,CA,0.9584,0.958,0.00040000000000006697
+Orange (API Python),Random Forest,avant,F1,0.8129496402877698,0.813,-5.0359712230108045e-05
+Orange (API Python),Random Forest,avant,Prec,0.8308823529411765,0.831,-0.00011764705882344462
+Orange (API Python),Random Forest,avant,Recall,0.795774647887324,0.796,-0.00022535211267604716
+Orange (API Python),Gradient Boosting,avant,AUC,0.9890775156353282,0.989,7.751563532820693e-05
+Orange (API Python),Gradient Boosting,avant,CA,0.9648,0.965,-0.00019999999999997797
+Orange (API Python),Gradient Boosting,avant,F1,0.837037037037037,0.837,3.703703703705763e-05
+Orange (API Python),Gradient Boosting,avant,Prec,0.8828125,0.883,-0.0001875000000000071
+Orange (API Python),Gradient Boosting,avant,Recall,0.795774647887324,0.796,-0.00022535211267604716
+Orange (API Python),kNN standardisé,apres,AUC,0.9641372603854172,0.964,0.00013726038541728158
+Orange (API Python),kNN standardisé,apres,CA,0.9512,0.951,0.000200000000000089
+Orange (API Python),kNN standardisé,apres,F1,0.779783393501805,0.78,-0.00021660649819499334
+Orange (API Python),kNN standardisé,apres,Prec,0.8,0.8,0.0
+Orange (API Python),kNN standardisé,apres,Recall,0.7605633802816901,0.761,-0.000436619718309883
+Orange (API Python),Random Forest 100,apres,AUC,0.9839706106676158,0.984,-2.9389332384166522e-05
+Orange (API Python),Random Forest 100,apres,CA,0.9632,0.963,0.00019999999999997797
+Orange (API Python),Random Forest 100,apres,F1,0.8333333333333334,0.833,0.00033333333333340764
+Orange (API Python),Random Forest 100,apres,Prec,0.8582089552238806,0.858,0.0002089552238806469
+Orange (API Python),Random Forest 100,apres,Recall,0.8098591549295775,0.81,-0.00014084507042255723

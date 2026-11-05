@@ -1,0 +1,25 @@
+{
+  "orange": "3.40.0",
+  "sha256": {
+    "widgets/data/owdatasampler.py": "f4c29b407cc798daaff9e943ac99775d6d0aafc219680f41ade93e4bdc576880",
+    "widgets/evaluate/owtestandscore.py": "2f87e2d119b5fb7b2bc7ae518d2f236a26206893bca7c399e10a4ecea4ada052",
+    "widgets/model/owsavemodel.py": "f930f9ace0c2db3050bcf147007b6e1e6386d5880639710c0a3321ec63bd715e",
+    "widgets/model/owlogisticregression.py": "ce872c8198f16eb7e59d1441548211e2ec995132985cfc2c7fcf358bdafec9b6",
+    "widgets/model/owknn.py": "9d7ed81018183f50b2bf060c842460b556b45767812c35761779c4e690a8d560",
+    "widgets/model/owtree.py": "f542b0108aafbd86d369c0db186ebf5dd7b927150c37ac2c9809693feb60a5ab",
+    "widgets/model/owrandomforest.py": "2a203da86f48421e119195dcee750ecefcb2b47c09ff803a4794999baf65810c",
+    "widgets/model/owgradientboosting.py": "cc095d2e06252b58b89f87de7b8df79a3e974664d955678135f043dd3addab47",
+    "classification/logistic_regression.py": "86f268cc445c26c10194cf36870b9d96b8afb50a25410d98cbb49aa94d117c57",
+    "classification/knn.py": "e141a7cd20244dbef39b538a79fd671f840f4721e672fca8c32ef3cccfc428f6",
+    "classification/tree.py": "5334ad7e7c04efc193b17f6860ce22304822820d597557cec91432e05947198b",
+    "classification/random_forest.py": "93633e59c646b94852818703930b6e10ac918a8ec834f8398a20951a60dc60b9",
+    "classification/gb.py": "6e507b51007c08d6f1a766d649da4d4c6535ed01336e3814b266624e7e79ad74",
+    "preprocess/preprocess.py": "003a428818f258fccae4cfc11109bf6d966ff5decd58ee55ca96e3540821d715",
+    "evaluation/testing.py": "aeb8c3591bf8e47c6a15ee846f08093fc6c65ba5d5567f0936c38463774febda",
+    "base.py": "2d5c869b71b884d8e6a9d695e827a168a5ad1a6f42d10ff14ac81a15c01aa62e",
+    "modelling/base.py": "34b80348f3ab89f56d43f12359d6477dd87f22aa1cfeb0637fd019c60524a076",
+    "evaluation/scoring.py": "98603a103f8ae48354daa95d5c56ef2c36f0572b15cedbba2d2febdb60c62642",
+    "widgets/data/owpreprocess.py": "1280dc217ac0e2726bab84ef0e1be89dfd01aa69564d9a041656e23b481735c2",
+    "widgets/utils/owlearnerwidget.py": "82d8ba7665f29ba70f1f976398362b0cce78f1700c25551ffe1f74ae6810db61"
+  }
+}

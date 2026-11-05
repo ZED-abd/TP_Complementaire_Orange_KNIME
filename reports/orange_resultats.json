@@ -1,0 +1,551 @@
+{
+  "provenance": {
+    "source": "Orange (API Python)",
+    "python": "3.13.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.9.1",
+    "donnees_sha256": "55d190c433f39d88c2b748ed77c75730cef6fe9f267b4eb6efef9be6ea464dea"
+  },
+  "orange": "3.40.0",
+  "graines": {
+    "donnees": 7,
+    "sampler": 42,
+    "CV": 42,
+    "LR": 0,
+    "RF": 0,
+    "GB": 0
+  },
+  "partage": {
+    "train": 3750,
+    "fraudes_train": 426,
+    "test": 1250,
+    "fraudes_test": 142
+  },
+  "avant": {
+    "Logistic Regression": {
+      "AUC": 0.9794261961661667,
+      "CA": 0.952,
+      "F1": 0.781021897810219,
+      "Prec": 0.8106060606060606,
+      "Recall": 0.7535211267605634,
+      "matrice": [
+        [
+          1083,
+          25
+        ],
+        [
+          35,
+          107
+        ]
+      ]
+    },
+    "kNN": {
+      "AUC": 0.8251830477449534,
+      "CA": 0.904,
+      "F1": 0.4782608695652174,
+      "Prec": 0.625,
+      "Recall": 0.3873239436619718,
+      "matrice": [
+        [
+          1075,
+          33
+        ],
+        [
+          87,
+          55
+        ]
+      ]
+    },
+    "Tree": {
+      "AUC": 0.8451085574820767,
+      "CA": 0.9504,
+      "F1": 0.7559055118110236,
+      "Prec": 0.8571428571428571,
+      "Recall": 0.676056338028169,
+      "matrice": [
+        [
+          1092,
+          16
+        ],
+        [
+          46,
+          96
+        ]
+      ]
+    },
+    "Random Forest": {
+      "AUC": 0.976616921747089,
+      "CA": 0.9584,
+      "F1": 0.8129496402877698,
+      "Prec": 0.8308823529411765,
+      "Recall": 0.795774647887324,
+      "matrice": [
+        [
+          1085,
+          23
+        ],
+        [
+          29,
+          113
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "AUC": 0.9890775156353282,
+      "CA": 0.9648,
+      "F1": 0.837037037037037,
+      "Prec": 0.8828125,
+      "Recall": 0.795774647887324,
+      "matrice": [
+        [
+          1093,
+          15
+        ],
+        [
+          29,
+          113
+        ]
+      ]
+    }
+  },
+  "apres": {
+    "Logistic Regression": {
+      "AUC": 0.9794261961661667,
+      "CA": 0.952,
+      "F1": 0.781021897810219,
+      "Prec": 0.8106060606060606,
+      "Recall": 0.7535211267605634,
+      "matrice": [
+        [
+          1083,
+          25
+        ],
+        [
+          35,
+          107
+        ]
+      ]
+    },
+    "kNN": {
+      "AUC": 0.9641372603854172,
+      "CA": 0.9512,
+      "F1": 0.779783393501805,
+      "Prec": 0.8,
+      "Recall": 0.7605633802816901,
+      "matrice": [
+        [
+          1081,
+          27
+        ],
+        [
+          34,
+          108
+        ]
+      ]
+    },
+    "Tree": {
+      "AUC": 0.8451085574820767,
+      "CA": 0.9504,
+      "F1": 0.7559055118110236,
+      "Prec": 0.8571428571428571,
+      "Recall": 0.676056338028169,
+      "matrice": [
+        [
+          1092,
+          16
+        ],
+        [
+          46,
+          96
+        ]
+      ]
+    },
+    "Random Forest": {
+      "AUC": 0.9839706106676158,
+      "CA": 0.9632,
+      "F1": 0.8333333333333334,
+      "Prec": 0.8582089552238806,
+      "Recall": 0.8098591549295775,
+      "matrice": [
+        [
+          1089,
+          19
+        ],
+        [
+          27,
+          115
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "AUC": 0.9890775156353282,
+      "CA": 0.9648,
+      "F1": 0.837037037037037,
+      "Prec": 0.8828125,
+      "Recall": 0.795774647887324,
+      "matrice": [
+        [
+          1093,
+          15
+        ],
+        [
+          29,
+          113
+        ]
+      ]
+    }
+  },
+  "cv": {
+    "avant": {
+      "Logistic Regression": {
+        "F1": 0.7437858508604207,
+        "F1_par_pli": [
+          0.7830188679245284,
+          0.7010309278350515,
+          0.75,
+          0.7081339712918661,
+          0.7713004484304933
+        ],
+        "F1_moyenne_plis": 0.7426968430963878,
+        "AUC": 0.9788970737784104
+      },
+      "kNN": {
+        "F1": 0.45925925925925926,
+        "F1_par_pli": [
+          0.4235294117647059,
+          0.4,
+          0.47368421052631576,
+          0.5104166666666666,
+          0.4827586206896552
+        ],
+        "F1_moyenne_plis": 0.4580777819294687,
+        "AUC": 0.8216589416916662
+      },
+      "Tree": {
+        "F1": 0.7034764826175869,
+        "F1_par_pli": [
+          0.7142857142857143,
+          0.6630434782608695,
+          0.708994708994709,
+          0.7010309278350515,
+          0.7255813953488373
+        ],
+        "F1_moyenne_plis": 0.7025872449450363,
+        "AUC": 0.8007200751894036
+      },
+      "Random Forest": {
+        "F1": 0.8069216757741348,
+        "F1_par_pli": [
+          0.8378378378378378,
+          0.7830188679245284,
+          0.8186046511627907,
+          0.8245614035087719,
+          0.7692307692307693
+        ],
+        "F1_moyenne_plis": 0.8066507059329396,
+        "AUC": 0.9760216590608635
+      },
+      "Gradient Boosting": {
+        "F1": 0.8180112570356473,
+        "F1_par_pli": [
+          0.8356807511737089,
+          0.8018867924528302,
+          0.8252427184466019,
+          0.8207547169811321,
+          0.8071748878923767
+        ],
+        "F1_moyenne_plis": 0.81814797338933,
+        "AUC": 0.987539207492246
+      }
+    },
+    "apres": {
+      "Logistic Regression": {
+        "F1": 0.7437858508604207,
+        "F1_par_pli": [
+          0.7830188679245284,
+          0.7010309278350515,
+          0.75,
+          0.7081339712918661,
+          0.7713004484304933
+        ],
+        "F1_moyenne_plis": 0.7426968430963878,
+        "AUC": 0.9788970737784104
+      },
+      "kNN": {
+        "F1": 0.7802607076350093,
+        "F1_par_pli": [
+          0.8,
+          0.7669902912621359,
+          0.7962085308056872,
+          0.7714285714285715,
+          0.7665198237885462
+        ],
+        "F1_moyenne_plis": 0.7802294434569882,
+        "AUC": 0.9577885862104032
+      },
+      "Tree": {
+        "F1": 0.7034764826175869,
+        "F1_par_pli": [
+          0.7142857142857143,
+          0.6630434782608695,
+          0.708994708994709,
+          0.7010309278350515,
+          0.7255813953488373
+        ],
+        "F1_moyenne_plis": 0.7025872449450363,
+        "AUC": 0.8007200751894036
+      },
+      "Random Forest": {
+        "F1": 0.8193430656934306,
+        "F1_par_pli": [
+          0.8571428571428571,
+          0.8038277511961722,
+          0.827906976744186,
+          0.8198198198198198,
+          0.7876106194690266
+        ],
+        "F1_moyenne_plis": 0.8192616048744122,
+        "AUC": 0.9845261494508567
+      },
+      "Gradient Boosting": {
+        "F1": 0.8180112570356473,
+        "F1_par_pli": [
+          0.8356807511737089,
+          0.8018867924528302,
+          0.8252427184466019,
+          0.8207547169811321,
+          0.8071748878923767
+        ],
+        "F1_moyenne_plis": 0.81814797338933,
+        "AUC": 0.987539207492246
+      }
+    }
+  },
+  "seuil_0_3": {
+    "AUC": 0.9890775156353282,
+    "CA": 0.9632,
+    "F1": 0.8456375838926175,
+    "Prec": 0.8076923076923077,
+    "Recall": 0.8873239436619719,
+    "matrice": [
+      [
+        1078,
+        30
+      ],
+      [
+        16,
+        126
+      ]
+    ]
+  },
+  "parametres": {
+    "avant": {
+      "Logistic Regression": {
+        "params": {
+          "penalty": "l2",
+          "C": 1,
+          "dual": false,
+          "tol": 0.0001,
+          "fit_intercept": true,
+          "intercept_scaling": 1.0,
+          "class_weight": null,
+          "random_state": 0,
+          "solver": "auto",
+          "max_iter": 10000,
+          "verbose": 0,
+          "n_jobs": 1
+        },
+        "pretraitements": [
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      },
+      "kNN": {
+        "params": {
+          "n_neighbors": 5,
+          "weights": "uniform",
+          "algorithm": "auto",
+          "metric": "euclidean",
+          "metric_params": null
+        },
+        "pretraitements": [
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      },
+      "Tree": {
+        "params": {
+          "binarize": true,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "sufficient_majority": 0.95,
+          "max_depth": 100
+        },
+        "pretraitements": []
+      },
+      "Random Forest": {
+        "params": {
+          "n_estimators": 10,
+          "criterion": "gini",
+          "max_depth": null,
+          "min_samples_split": 5,
+          "min_samples_leaf": 1,
+          "min_weight_fraction_leaf": 0.0,
+          "max_features": "sqrt",
+          "max_leaf_nodes": null,
+          "bootstrap": true,
+          "oob_score": false,
+          "n_jobs": 1,
+          "random_state": 0,
+          "verbose": 0,
+          "class_weight": null
+        },
+        "pretraitements": [
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      },
+      "Gradient Boosting": {
+        "params": {
+          "loss": "log_loss",
+          "learning_rate": 0.1,
+          "n_estimators": 100,
+          "subsample": 1,
+          "criterion": "friedman_mse",
+          "min_samples_split": 2,
+          "min_samples_leaf": 1,
+          "min_weight_fraction_leaf": 0.0,
+          "max_depth": 3,
+          "min_impurity_decrease": 0.0,
+          "init": null,
+          "random_state": 0,
+          "max_features": null,
+          "verbose": 0,
+          "max_leaf_nodes": null,
+          "warm_start": false,
+          "validation_fraction": 0.1,
+          "n_iter_no_change": null,
+          "tol": 0.0001,
+          "ccp_alpha": 0.0
+        },
+        "pretraitements": [
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      }
+    },
+    "apres": {
+      "Logistic Regression": {
+        "params": {
+          "penalty": "l2",
+          "C": 1,
+          "dual": false,
+          "tol": 0.0001,
+          "fit_intercept": true,
+          "intercept_scaling": 1.0,
+          "class_weight": null,
+          "random_state": 0,
+          "solver": "auto",
+          "max_iter": 10000,
+          "verbose": 0,
+          "n_jobs": 1
+        },
+        "pretraitements": [
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      },
+      "kNN": {
+        "params": {
+          "n_neighbors": 5,
+          "weights": "uniform",
+          "algorithm": "auto",
+          "metric": "euclidean",
+          "metric_params": null
+        },
+        "pretraitements": [
+          "Normalize()",
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      },
+      "Tree": {
+        "params": {
+          "binarize": true,
+          "min_samples_leaf": 2,
+          "min_samples_split": 5,
+          "sufficient_majority": 0.95,
+          "max_depth": 100
+        },
+        "pretraitements": []
+      },
+      "Random Forest": {
+        "params": {
+          "n_estimators": 100,
+          "criterion": "gini",
+          "max_depth": null,
+          "min_samples_split": 5,
+          "min_samples_leaf": 1,
+          "min_weight_fraction_leaf": 0.0,
+          "max_features": "sqrt",
+          "max_leaf_nodes": null,
+          "bootstrap": true,
+          "oob_score": false,
+          "n_jobs": 1,
+          "random_state": 0,
+          "verbose": 0,
+          "class_weight": null
+        },
+        "pretraitements": [
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      },
+      "Gradient Boosting": {
+        "params": {
+          "loss": "log_loss",
+          "learning_rate": 0.1,
+          "n_estimators": 100,
+          "subsample": 1,
+          "criterion": "friedman_mse",
+          "min_samples_split": 2,
+          "min_samples_leaf": 1,
+          "min_weight_fraction_leaf": 0.0,
+          "max_depth": 3,
+          "min_impurity_decrease": 0.0,
+          "init": null,
+          "random_state": 0,
+          "max_features": null,
+          "verbose": 0,
+          "max_leaf_nodes": null,
+          "warm_start": false,
+          "validation_fraction": 0.1,
+          "n_iter_no_change": null,
+          "tol": 0.0001,
+          "ccp_alpha": 0.0
+        },
+        "pretraitements": [
+          "HasClass()",
+          "Continuize()",
+          "RemoveNaNColumns()",
+          "SklImpute()"
+        ]
+      }
+    }
+  },
+  "modele_octets": 141461
+}
